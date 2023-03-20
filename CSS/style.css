@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #ffc92a;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+.LeftHeaderBox {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    width: 50%;
+}
+
+.RightHeaderBox {
+    width: 25%;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.RightHeaderBox a {
+    margin-right: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'daanishomo';
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.RightHeaderBox i {
+    font-size: 25px;
+}
+
+.NavBar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    padding-left:100px;
+    
+    
+}
+
+.NavBar li a {
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    margin-left:100px;
+    margin-right:100px;
+    font-family: 'daanishomo';
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'daanishomo';
+    src: url(/fonts/SignikaNegative-VariableFont_wght.ttf);
+}   

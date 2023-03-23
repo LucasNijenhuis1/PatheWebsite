@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pathe</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/1630483488.js" crossorigin="anonymous"></script>
@@ -14,16 +14,16 @@
 <body>
     <header>
         <div class="LeftHeaderBox">
-            <img class="logo" src="/img/PatheLogoSmall.png" alt="">
+            <img class="logo" src="img/PatheLogoSmall.png" alt="">
             <ul class="NavBar">
-                <li><a href="/index.php">Home</a></li>
-                <li><a href="/films.html">Films</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         
         <div class="RightHeaderBox">
-            <a href="/login.php">Mijn Pathe</a>
+            <a href="login.php">Mijn Pathe</a>
             <i class="fa-solid fa-user"></i>
         </div>
     </header>

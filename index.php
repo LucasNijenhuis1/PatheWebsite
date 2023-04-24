@@ -36,9 +36,8 @@
         <div class="LeftHeaderBox">
             <img class="logo" src="img/PatheLogoSmall.png" alt="">
             <ul class="NavBar">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/PatheWebsite/index.php">Home</a></li>
                 <li><a href="films.html">Films</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         
@@ -49,9 +48,41 @@
     </header>
 
     <main>
+        <div class="welkom">
+
+        </div>
+        <div class="welkom">
+
+        </div>
+        <div class="welkom">
+
+        </div>
+
+
     </main>
 
     <footer>
+    <div class="footer">
+            <div class="row">
+                <a href="https://github.com/LucasNijenhuis1"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/lucasnijenhuis2/"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <!-- /*<a href="#"><i class="fa fa-twitter"></i></a> -->
+            </div>
+        
+        <div class="row">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/myproj.html">My projects</a></li>
+                <li><a href="/about.html">About me</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+            <div class="row">
+                Copyright © Lucas Nijenhuis 2023
+            </div>
+        </div>
 
     </footer>
 </body>

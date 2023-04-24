@@ -18,7 +18,6 @@
             <ul class="NavBar">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="films.html">Films</a></li>
-
             </ul>
         </div>
         
@@ -29,11 +28,18 @@
     </header>
 
     <main>
-        <img src="/img/1-pathe-nijmegen-buitenzijde-entree.webp" alt="">
+        <div class="LogIncontainer">
+            <form name="inlog" action="inlog4.php" method="POST">
+                <p>voer username in <input type="text" id="username" name="username"></p>
+                <p>voer wachtwoord in <input type="password" id="password" name="password"></p>
+                <p><input type="submit" id="verstuur" name="verstuur" value="verzend"></p>
+            </form>
+
+            <a href="login.php">register a acc</a>
     </main>
 
     <footer>
-        <div class="footer">
+    <div class="footer">
             <div class="row">
                 <a href="https://github.com/LucasNijenhuis1"><i class="fa fa-github"></i></a>
                 <a href="https://www.instagram.com/lucasnijenhuis2/"><i class="fa fa-instagram"></i></a>
